@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="container">
+    <h1>Hyp Search</h1>
+  </div>
+</div>
+
+<div class="messages">
+  <div class="container">
+  <%= link_to 'New_Search', "https://project1-1-2-sanchan.c9users.io/searches/new" %>
+  <% @searches.each do |search| %> 
+    
+<div class="search"> 
+  <p class="content"><%= search.content %></p> 
+  <p class="time"><%= search.created_at %></p> 
+</div> 
+<% end %>
+
+  </div>
+</div>
