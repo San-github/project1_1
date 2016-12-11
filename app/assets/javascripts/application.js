@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require p5
+//= require p5.dom
+//= require Dot
+//= require DotS
+//= require console
+//= require plot
+//= require action
 //= require_tree .
